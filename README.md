@@ -1,5 +1,5 @@
 ## [Master Thesis] Research Webshell Detection Technique Using Machine Learning
-#### Author: Cuong Nguyen - 2nd Brigade
+#### Author: Cuong Nguyen
 #### Email: cuongnguyen.work8797@gmail.com
 <br />
 
