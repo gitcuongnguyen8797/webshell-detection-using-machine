@@ -5,5 +5,5 @@
 
 
 # Platforms
-- Python 3.7.15
-- Pip 22.2.2
+- Python 3.9.6
+- Pip 23.2.2
