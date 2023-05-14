@@ -28,16 +28,16 @@ class Sentences():
         for file_index in file_list:
             a = []
             for line in open(os.path.abspath(os.curdir) + '/dataset/cleaned/' + str(file_index), 'rb'):
-                line = re.sub(r'[^\x00-\x7F]+',' ', str(line))
-                char = ['\t', '\n', '\\t', '\\n', '<?php', '?>', ';', '<html', '</html>', '<body', '</body>', '>',
-                        '<head', '</head>', '<meta', '/>', '<title', '</title>', '<style>', '</style>', '<script',
-                        '</script>', '<a', '</a>', '<p', '</p>', '<div', '</div>', '<b', '</b>']
-                for i in char:
-                    line = line.strip(i)
-                line = line.split(' ')
-                a = a + line
-            yield a
-                # yield self._spliter(str(line).strip("\r\n"))
+            #     line = re.sub(r'[^\x00-\x7F]+',' ', str(line))
+            #     char = ['\t', '\n', '\\t', '\\n', '<?php', '?>', ';', '<html', '</html>', '<body', '</body>', '>',
+            #             '<head', '</head>', '<meta', '/>', '<title', '</title>', '<style>', '</style>', '<script',
+            #             '</script>', '<a', '</a>', '<p', '</p>', '<div', '</div>', '<b', '</b>']
+            #     for i in char:
+            #         line = line.strip(i)
+            #     line = line.split(' ')
+            #     a = a + line
+            # yield a
+                yield self._spliter(str(line).strip("\r\n"))
 
 
 
