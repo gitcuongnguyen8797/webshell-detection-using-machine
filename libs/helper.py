@@ -29,5 +29,5 @@ def calc_entropy(file):
 """
   This feature only affected to specific language when extracting feature
 """
-def sensitive_functions():
+def using_word2vec(file):
     pass

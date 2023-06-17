@@ -25,6 +25,13 @@ class ExtractFeatures:
     def extract_entropy_file(self):
         return calc_entropy(self.resource)
 
+    def extract_longest_string(self):
+        longest_string = ''
+        with open(self.resource, 'r', encoding='ISO-8859-1') as file:
+            lines = file.readlines()
+            longest_string = max(lines, key=len)
+            return len(longest_string)
+
     def extract_by_word2vec(self):
         return None
     
