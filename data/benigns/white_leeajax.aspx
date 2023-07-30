@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="True" Inherits="install.ajax" CodeBehind="ajax.aspx.cs" %>

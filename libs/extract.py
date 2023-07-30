@@ -31,6 +31,8 @@ class ExtractFeatures:
             lines = file.readlines()
             longest_string = max(lines, key=len)
             return len(longest_string)
+    def extract_danger_functions(self):
+        return
 
     def extract_by_word2vec(self):
         return None
