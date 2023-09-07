@@ -5,11 +5,21 @@ from libs.helper import *
 
 class ExtractFeatures:
     
-    def __init__(self, file, export_to) -> None:
+    def __init__(self, file, export_to, original_name) -> None:
         self.resource = ROOT_DIR + file
         self.export_to = ROOT_DIR + export_to
         self._sensitive_functions = ['exec', 'shell_exec', 'passthru', 'system', 'show_source', 'proc_open', 'pcntl_exec', 'eval', 'assert']
         self._df = None
+        self.original_name = original_name
+
+    def pre_process(self, to):
+        regex = re.compile(r"(?s)<\?php.+?\?>")
+        with open(self.resource, 'r', encoding='ISO-8859-1') as file:
+            result = regex.findall(file.read())
+            text =  "".join([str(x) for x in result])
+        f = open(ROOT_DIR + '/dataset/filtered/'+to, 'w+', encoding='ISO-8859-1')
+        f.write(str(text))
+        f.close()
 
     def extract_function_names(self):
         filter = [

